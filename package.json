@@ -2,6 +2,6 @@
   "name": "together2050-coming-soon",
   "private": true,
   "scripts": {
-    "build": "echo 'Static site — no build step'"
+    "build": "rm -rf dist && mkdir -p dist && cp index.html styles.css main.js dist/"
   }
 }
